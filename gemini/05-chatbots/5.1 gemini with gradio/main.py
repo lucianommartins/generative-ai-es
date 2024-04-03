@@ -20,8 +20,8 @@ TITLE = """<h1 align="center">Chatbot com Gemini 🤖</h1>"""
 SUBTITLE = """<h2 align="center">Protótipo de um chatbot multimodal com Gemini e Gradio</h2>"""
 
 # variaveis de projeto e regiao
-PROJECT_ID="lucianomartins-demos-345000" # TODO: atualize para o seu PROJECT_ID
-LOCATION="us-central1" # TODO: atualize para o seu REGION
+PROJECT_ID="[nome do seu projeto]" # TODO: atualize para o seu PROJECT_ID
+LOCATION="[região a ser utilizado]" # TODO: atualize para o seu REGION
 
 # inicializando a SDK da Vertex AI
 vertexai.init(project=PROJECT_ID, location=LOCATION)
